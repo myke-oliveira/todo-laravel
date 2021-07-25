@@ -7,7 +7,7 @@ use App\Models\Task;
 
 class GetTaskController extends Controller
 {
-    public function __invoke($id)
+    public function __invoke(int $id)
     {
         $task = Task::findOrFail($id);
         return $task;
