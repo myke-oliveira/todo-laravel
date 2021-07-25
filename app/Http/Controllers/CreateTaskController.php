@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Task;
 
-class CreateTasksController extends Controller
+class CreateTaskController extends Controller
 {
     public function __invoke(Request $request)
     {
